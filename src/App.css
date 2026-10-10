@@ -1,0 +1,123 @@
+.app {
+  min-height: 100vh;
+  padding: 30px 15px;
+}
+
+.form-container {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.heading h1 {
+  color: #39256b;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.heading p {
+  color: #76649e;
+  font-size: 16px;
+}
+
+.student-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(89, 54, 145, 0.15);
+  border: 1px solid #e2d5ff;
+}
+
+.student-form h2 {
+  color: #56369a;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.student-form label {
+  display: block;
+  color: #35275b;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+.student-form input,
+.student-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d2c4f3;
+  border-radius: 8px;
+  background: #fcfaff;
+  color: #35275b;
+  font-size: 15px;
+}
+
+.student-form input:focus,
+.student-form select:focus {
+  outline: none;
+  border-color: #8054d9;
+  box-shadow: 0 0 5px rgba(128, 84, 217, 0.25);
+}
+
+.student-form button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  border: none;
+  border-radius: 9px;
+  background: linear-gradient(90deg, #8054d9, #6540b7);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.student-form button:hover {
+  background: linear-gradient(90deg, #6540b7, #492b8c);
+  transform: translateY(-2px);
+}
+
+.result {
+  margin-top: 25px;
+  padding: 22px;
+  background: #ffffff;
+  border: 1px solid #c9efd7;
+  border-left: 5px solid #35a66b;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(65, 130, 91, 0.1);
+  overflow-wrap: anywhere;
+}
+
+.result h2 {
+  color: #218653;
+  font-size: 21px;
+}
+
+.result p {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee8f8;
+  color: #35275b;
+}
+
+.result h3 {
+  text-align: center;
+  color: #7046bb;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+  .heading h1 {
+    font-size: 24px;
+  }
+
+  .student-form {
+    padding: 20px;
+  }
+}
